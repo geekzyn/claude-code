@@ -22,7 +22,6 @@ Orchestrates: stage all → commit (follows `/commit` rules) → push to remote.
 
 - Current git status: !`git status`
 - Current branch: !`git branch --show-current`
-- Unpushed commits: !`git rev-parse --abbrev-ref @{u} >/dev/null 2>&1 && git log @{u}..HEAD --oneline || echo "(no upstream branch set)"`
 
 ## User Input (optional commit message)
 
