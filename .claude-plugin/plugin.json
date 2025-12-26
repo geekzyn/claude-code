@@ -2,7 +2,14 @@
   "name": "geekzyn-cc-mp",
   "description": "Marketplace for reusable development workflows.",
   "version": "1.0.0",
-  "author": {
+  "owner": {
     "name": "geekzyn"
-  }
+  },
+  "plugins": [
+    {
+      "name": "git-plugin",
+      "source": "./plugins/git",
+      "description": "Git reusable development workflows."
+    }
+  ]
 }
