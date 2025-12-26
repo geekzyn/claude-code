@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "git-plugin",
+      "name": "git",
       "source": "./plugins/git",
       "description": "Git reusable development workflows."
     }

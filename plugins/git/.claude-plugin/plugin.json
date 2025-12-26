@@ -1,5 +1,5 @@
 {
-  "name": "git-plugin",
+  "name": "git",
   "description": "Git reusable development workflows.",
   "version": "1.0.0"
 }
