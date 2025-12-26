@@ -87,10 +87,14 @@ $ARGUMENTS
    - If invalid, suggest corrections
    - If valid, proceed with commit
 
-4. **Create the commit (always use -am to stage and commit together)**:
+4. **Create the commit**:
+   - IMPORTANT: ALWAYS use `-am` flag (not just `-m`) to stage and commit together
+   - The `-a` flag automatically stages all modified tracked files
+   - Command format:
    ```bash
    git commit -am "<message>"
    ```
+   - NEVER use `git commit -m` - always use `git commit -am`
 
 6. **Handle pre-commit hook**:
    - If pre-commit hook fails:
