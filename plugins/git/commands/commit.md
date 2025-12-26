@@ -64,6 +64,9 @@ $ARGUMENTS
 
 ## Instructions
 
+> **⚠️ CRITICAL: When running `git commit`, ALWAYS use `-am` flag, NEVER use `-m` alone.**
+> **Example: `git commit -am "message"` ✅ | `git commit -m "message"` ❌**
+
 1. **Check for changes**:
    - If no staged or unstaged changes, inform user "Nothing to commit"
    - If there are unstaged changes, automatically stage all changes with `git add -A`
