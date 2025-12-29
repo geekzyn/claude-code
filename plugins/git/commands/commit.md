@@ -120,4 +120,4 @@ Parse the input to determine mode:
    git commit -am "your-rejected-message"
    ```
  * Inform the user: "Pre-commit hook failed. Please fix the issues reported above and re-run the command manually."
- * END EXECUTION - Do not continue to step 7
+ * END EXECUTION
