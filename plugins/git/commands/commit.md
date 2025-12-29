@@ -30,10 +30,8 @@ Parse the input to determine mode:
 
 | Input | Mode |
 |-------|------|
-| Empty/none | AUTO-GENERATE MODE |
+| Empty | AUTO-GENERATE MESSAGE MODE |
 | Message text | CUSTOM MESSAGE MODE |
-
-> **Note:** Always use `git commit -am` to stage and commit together.
 
 **Commit Format**
 ```
