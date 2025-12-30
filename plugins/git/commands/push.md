@@ -18,8 +18,6 @@ Push local commits to remote repository.
 
 - Current git status: !`git status`
 - Current branch: !`git branch --show-current`
-- Upstream branch: !`git rev-parse --abbrev-ref --symbolic-full-name @{u}`
-- Unpushed commits: !`git log @{u}..HEAD --oneline`
 
 ## Task
 
