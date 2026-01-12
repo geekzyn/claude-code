@@ -73,11 +73,13 @@ Parse the input to determine mode:
 2. **Analyze and generate options**:
    - Analyze the diff to understand what changed
    - Determine appropriate type based on changes
-   - Generate 2-3 commit message options with different types/scopes where applicable
+   - Generate 2-3 commit message options with different types/scopes where applicable based on the changes
+      - Each candidate should be concise, clear, and capture the essence of the changes
+      - DO NOT add Claude co-authorship footer to commits
 
 3. **Present options to user**:
    - Use `AskUserQuestion` tool:
-     - Header: "Commit msg"
+     - Header: "Commit message"
      - Question: "Which commit message would you like to use?"
      - Option 1: Primary suggested message 
      - Options 2-3: Alternative messages
